@@ -35,18 +35,15 @@ class LoginForm extends Component {
 &nbsp;<input type="email" placeholder="Email ID"/><br/>
                   <FontAwesomeIcon icon="lock" />&nbsp; <input type="password" placeholder="Password"/>
                     <br/>
-                    <div className="row">
-                    <div className="col-md-6">
-                        <div className="login-check">
+                   
+                  
+                        <div className="login-forgot">
                         <input type="checkbox" style={{"width": "50px"}}/>Remember me
-                        </div>
-                        </div>
-                        <div className="col-md-6">
-                        <div className="login-forgot"> 	
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="#">Forgot Password ?</a>
                         </div>
-                        </div>
-                    </div>
+               
+                 
                     <div className="site-login-btn">
                     <a href="#">LOGIN</a>
                     </div>

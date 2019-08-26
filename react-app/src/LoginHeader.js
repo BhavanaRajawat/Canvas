@@ -12,9 +12,9 @@ render() {
     return (
                <div className="container">
                <nav className="login-nav">
-                 <div className="row">
-                  <div className="col-md-6">
+                <div className="logo-img-header"> 
                <img src={loginLogo} />
+
                 </div>
                  <div className="login-btn">
         <ul>
@@ -22,7 +22,7 @@ render() {
              <li> <a href="#">Login</a> </li>
             </ul>
         </div>
-    </div>
+    
     </nav>
         </div>
 
