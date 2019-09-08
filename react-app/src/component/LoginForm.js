@@ -1,5 +1,5 @@
 import React , { Component} from 'react';
-import './CanvasApp.css';
+import CanvasApp from '../css/CanvasApp.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope,faLock } from '@fortawesome/free-solid-svg-icons';

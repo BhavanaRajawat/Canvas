@@ -1,6 +1,6 @@
 import React , { Component} from 'react';
-import './CanvasApp.css';
-import loginLogo from './images/loginLogo.png';
+import CanvasApp from '../css/CanvasApp.css';
+import loginLogo from '../images/loginLogo.png';
 
 
 class LoginHeader extends Component {
