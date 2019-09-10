@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import View from './component/View.js';
 import LoginHeader from './component/LoginHeader.js';
-import IndexHeader from './component/IndexHeader.js';
+import CVIndex from './component/CVIndex.js';
 import {
   Route,
   BrowserRouter as Router,
@@ -18,7 +18,7 @@ function App() {
     <div>
      
       <Switch>
-        <Route exact path="/" component={IndexHeader} />
+        <Route exact path="/" component={CVIndex} />
         <Route path="/login" component={View} />
        
        

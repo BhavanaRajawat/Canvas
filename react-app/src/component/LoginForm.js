@@ -1,5 +1,5 @@
 import React , { Component} from 'react';
-import CanvasApp from '../css/CanvasApp.css';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope,faLock } from '@fortawesome/free-solid-svg-icons';
@@ -16,10 +16,10 @@ class LoginForm extends Component {
    render(){
 
        
-       return (
+    return (
 
         <section className="login-bg">
-     <div class="container">
+        <div className="container">
             <div className="row">
             <div className="col-md-4">
               <div className="col-md-8"/>
@@ -32,32 +32,31 @@ class LoginForm extends Component {
                     <span className="h2-line"></span>
                     
               <FontAwesomeIcon icon="envelope" />
-&nbsp;<input type="email" placeholder="Email ID"/><br/>
+               &nbsp;<input type="email" placeholder="Email ID"/><br/>
                   <FontAwesomeIcon icon="lock" />&nbsp; <input type="password" placeholder="Password"/>
                     <br/>
                    
                   
-                        <div className="login-forgot">
+               <div className="login-forgot">
                         <input type="checkbox" style={{"width": "50px"}}/>Remember me
                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="#">Forgot Password ?</a>
                         </div>
-               
-                 
                     <div className="site-login-btn">
                     <a href="#">LOGIN</a>
                     </div>
+                </div>
+
+    
+                    
                 </div>
 
                 
              </div>
 
       </div>
-         </div>
+   
         </section>
-
-
-
 
        	);
 
