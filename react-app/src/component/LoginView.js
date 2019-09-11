@@ -3,7 +3,7 @@ import LoginForm from './LoginForm.js';
 import LoginHeader from './LoginHeader.js';
 import IndexHeader from './IndexHeader.js';
 
-class View extends Component{
+class LoginView extends Component{
 
  render(){
 
@@ -21,4 +21,4 @@ class View extends Component{
 
 }
 
-export default View;
+export default LoginView;

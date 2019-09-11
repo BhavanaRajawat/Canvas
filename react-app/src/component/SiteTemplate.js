@@ -13,33 +13,41 @@ class SiteTemplate extends Component{
               Resume Template
           </h2>
             <center><span className="underline"></span></center>
+            <div className = "row">
             <div className="owl-carousel owl-theme">
             <div class="owl-stage-outer">
-                <div className="owl-item active" style={{"width": "240px"}}> 
+              <div className="col-md-4">
+                <div className="owl-item active" style={{"width": "380px"}}> 
                 <div>
                 <img src={owlSide} style={{"width": "100%" , "height": "400px","object-fit": "contain"}}/> 
                 </div>
                 </div>
-                <div className="owl-item active" style={{"width": "240px"}}> 
+                </div>
+                 <div className="col-md-4">
+                <div className="owl-item active" style={{"width": "380px"}}> 
                 <div>
                <img src={carousel} className="img-responsive"/> 
                </div>
                </div>
-               <div className="owl-item active" style={{"width": "240px"}}> 
+                </div>
+                 <div className="col-md-4">
+               <div className="owl-item active" style={{"width": "380px"}}> 
                 <div>
               <img src={owlSide} style={{"width": "100%" , "height": "400px" ,"object-fit": "contain"}}/> </div>
               </div>
+              </div>
+              </div>
+              <div className = "row">
             </div>
             <div className="owl-load"> <a href="#">LOAD MORE</a> </div>
             </div>
+            </div>
+
         </div>
     </section>
 
 
     	);
-
-
-
 
  }
 

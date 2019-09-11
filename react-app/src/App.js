@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import View from './component/View.js';
+import LoginView from './component/LoginView.js';
 import LoginHeader from './component/LoginHeader.js';
 import CVIndex from './component/CVIndex.js';
 import {
@@ -19,7 +19,7 @@ function App() {
      
       <Switch>
         <Route exact path="/" component={CVIndex} />
-        <Route path="/login" component={View} />
+        <Route path="/login" component={LoginView} />
        
        
       </Switch>

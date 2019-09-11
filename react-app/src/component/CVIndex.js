@@ -21,9 +21,6 @@ class CVIndex extends Component
 
      	);
 
-      
-
-
   }
 
 }
